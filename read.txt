@@ -1,0 +1,9 @@
+ echo "# dk_repository" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/DingKing/dk_repository.git
+git push -u origin master
+
+
+创建了一个远程仓库，主要是是用来学习文档的记录
